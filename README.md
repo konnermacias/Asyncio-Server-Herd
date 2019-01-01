@@ -11,6 +11,8 @@ Each Server is named after a 18-19 Los Angeles Laker, and has the following port
 - Kuzma : 11608
 - McGee : 11609
 
+All communications between the servers or events happening within the system can be found in the logs/ folder.
+
 ## Start your servers
 ```
 sh start_servers.sh
@@ -26,7 +28,7 @@ sh kill_servers.sh
 Tell the server where a client is at. Takes client id, ISO 6709 location.
 ```
 nc localhost [PORT]
-IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1479413884.392014450
+IAMAT kiwi.cs.ucla.edu +34.068930-118.445127
 ```
 
 ### WHATSAT
